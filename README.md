@@ -1,4 +1,15 @@
-# sveltekit-adapter-chrome-extension
+# svelte-adapter-browser-extension
+
+> forked from [michmich112/sveltekit-adapter-chrome-extension](https://github.com/michmich112/sveltekit-adapter-chrome-extension)
+
+This project is a fork from the repository mentioned above.
+The goal is:
+
+- Fix compatibility issues with SvelteKit v2.
+- Improve development/publishing.
+- Make it ready for improvements/features (e.g.: more compatibility with other browsers, more updated dependencies, more config options, etc.)
+
+## Description
 
 [Adapter](https://kit.svelte.dev/docs#adapters) for SvelteKit apps that prerenders your site as a collection of static files and removes inline scripts to comply with content source policies of Chrome extensions using manifest v3.
 
@@ -8,11 +19,11 @@
 
 ## Usage
 
-Install with `npm i -D sveltekit-adapter-chrome-extension`, then add the adapter to your `svelte.config.js`:
+Install with `npm i -D svelte-adapter-browser-extension`, then add the adapter to your `svelte.config.js`:
 
 ```js
 // svelte.config.js
-import adapter from "sveltekit-adapter-chrome-extension";
+import adapter from "svelte-adapter-browser-extension";
 
 export default {
   kit: {

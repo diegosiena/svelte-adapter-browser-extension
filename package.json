@@ -1,9 +1,9 @@
 {
-  "name": "sveltekit-adapter-chrome-extension",
-  "version": "2.0.0",
+  "name": "svelte-adapter-browser-extension",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/michmich112/sveltekit-adapter-chrome-extension"
+    "url": "https://github.com/diegosiena/svelte-adapter-browser-extension"
   },
   "license": "MIT",
   "type": "module",
@@ -16,17 +16,17 @@
   },
   "types": "index.d.ts",
   "scripts": {
-    "lint": "eslint --ignore-path .gitignore \"**/*.{ts,js,svelte}\" && npm run check-format",
-    "check": "tsc",
-    "format": "npm run check-format -- --write",
-    "check-format": "prettier --check . --config ../../.prettierrc --ignore-path .gitignore",
-    "test": "uvu test test.js"
+    "check": "tsc"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.10",
+    "cheerio": "^1.0.0-rc.12",
     "tiny-glob": "^0.2.9"
   },
   "peerDependencies": {
-    "@sveltejs/adapter-static": "^2.0.1"
+    "@sveltejs/adapter-static": "^3.0.1"
+  },
+  "volta": {
+    "node": "18.19.1",
+    "yarn": "1.22.21"
   }
 }
