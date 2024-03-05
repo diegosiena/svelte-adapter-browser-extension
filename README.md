@@ -1,5 +1,7 @@
 # svelte-adapter-browser-extension
 
+![NPM Version](https://img.shields.io/npm/v/svelte-adapter-browser-extension) ![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/npm/sveltekit-adapter-chrome-extension)
+
 > forked from [michmich112/sveltekit-adapter-chrome-extension](https://github.com/michmich112/sveltekit-adapter-chrome-extension)
 
 This project is a fork from the repository mentioned above.
